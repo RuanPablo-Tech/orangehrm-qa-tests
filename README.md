@@ -15,5 +15,5 @@ Praticar:
 - URL: https://opensource-demo.orangehrmlive.com/
 - Ambiente: Demo
 
-## Status do projeto
-🚧 Em evolução
+## Status do projeto 🚧 Em evolução
+Novos cenários, casos de teste e automações serão adicionados gradualmente.
