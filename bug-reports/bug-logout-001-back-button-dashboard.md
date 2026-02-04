@@ -31,8 +31,6 @@ Apesar da visualização do Dashboard, o sistema bloqueia qualquer interação e
 
 ### Evidências
 
-- ![Dashboard visível após logout]
-  (evidences/bug-logout-001-dashboard-after-logout.png)
+- ![Dashboard visível após logout](evidences/bug-logout-001-dashboard-after-logout.png)
 
-- ![Retorno ao Dashboard via botão Voltar]
-- (evidences/bug-logout-001-back-button-dashboard.png)
+- ![Retorno ao Dashboard via botão Voltar](evidences/bug-logout-001-back-button-dashboard.png)
