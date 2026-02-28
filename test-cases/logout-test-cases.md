@@ -38,3 +38,6 @@ Ao clicar no botão voltar após o logout:
 
 ### Status
 Failed
+
+Relação com Bugs
+TC-LOGOUT-001 → BUG-LOGOUT-001 (Status: Failed)
