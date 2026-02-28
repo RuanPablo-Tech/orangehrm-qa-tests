@@ -1,33 +1,49 @@
-🐞 # BUG-LOGOUT-001 — Logout permite retorno visual ao Dashboard via botão Voltar
+🐞 Bug Report
 
-Pré-condição
+Título
+Logout permite retorno visual ao Dashboard ao utilizar o botão Voltar do navegador
+
+Tipo
+Segurança
+
+Ambiente: Sistema
+OrangeHRM (Open Source Demo)
+
+URL
+https://opensource-demo.orangehrmlive.com
+
+Ambiente
+Produção (Demo pública)
+
+Navegador
+Chrome
+
+Sistema Operacional
+Windows
+
+Pré-condição 
 Usuário autenticado no sistema
-Acesso ao Dashboard
 Sessão ativa
+Dashboard carregado corretamente
 
 Passos para reprodução
-Realizar login com usuário válido
-Acessar o Dashboard
-Clicar em Logout
-Na tela de login, clicar no botão Voltar (←) do navegador
+Realizar login com usuário válido.
+Acessar o Dashboard.
+Clicar em Logout.
+Na tela de login, clicar no botão Voltar (←) do navegador.
 
 Resultado esperado
-Após o logout, o usuário não deve conseguir visualizar páginas internas do sistema, mesmo utilizando o botão Voltar do navegador.
-O sistema deve bloquear o acesso e manter o usuário na tela de login.
+Após o logout, o sistema não deve permitir a visualização de páginas internas, mesmo ao utilizar o botão Voltar do navegador.
+O usuário deve permanecer na tela de login e qualquer tentativa de acesso à URL interna deve ser bloqueada imediatamente.
 
 Resultado obtido
-Ao clicar no botão Voltar do navegador após o logout:
-O sistema exibe novamente o Dashboard
-A URL correspondente à área interna é carregada
-Ao tentar interagir com qualquer item do menu, o sistema redireciona o usuário para a tela de login.
-
-Observação
-O conteúdo do Dashboard aparenta estar sendo carregado a partir de cache do navegador, permitindo visualização momentânea da interface mesmo com a sessão encerrada.
+Ao clicar no botão Voltar após o logout:
+O Dashboard é exibido novamente.
+A URL da área interna é carregada.
+Ao tentar interagir com qualquer funcionalidade, o sistema redireciona o usuário para a tela de login.
 
 Severidade
-🟡 Baixa
-Apesar da visualização do Dashboard, o sistema bloqueia qualquer interação e redireciona para a tela de login ao tentar acessar funcionalidades internas.
-
+Baixa
 
 ### Evidências
 
