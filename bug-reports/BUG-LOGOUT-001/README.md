@@ -37,8 +37,8 @@ Ao clicar no botão voltar após o logout:
 ## Severidade
 Baixa
 
-## Evidência
-- ![Dashboard visível após logout](evidences/bug-logout-001-dashboard-after-logout.png)
-
-- ![Retorno ao Dashboard via botão Voltar](evidences/bug-logout-001-back-button-dashboard.png)
+## Evidências
+![Usuário logado](evidences/bug-logout-001_step-1_usuario-logado.png)
+![Clique no logout](evidences/bug-logout-001_step-2_click-logout.png)
+![Acesso após logout](evidences/bug-logout-001_step-3_acesso-pos-logout.png)
 
