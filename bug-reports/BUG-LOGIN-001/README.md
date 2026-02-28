@@ -32,4 +32,7 @@ O sistema exibe mensagens diferentes dependendo da combinação de credenciais i
 Baixa
 
 ## Evidência
+![Usuário vazio](evidences/bug-login-001_step-1_usuario-vazio.png)
+![Usuário vazio](evidences/bug-login-001_step-4_usuario-invalido.png)
+
 
