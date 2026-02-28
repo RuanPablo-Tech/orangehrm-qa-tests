@@ -1,52 +1,44 @@
-🐞 Bug Report
+# 🐞 Bug Report
 
-Título
-Logout permite retorno visual ao Dashboard ao utilizar o botão Voltar do navegador
+## Título
+Logout permite retorno visual ao dashboard ao utilizar botão voltar do navegador
 
-Tipo
+## Tipo
 Segurança
 
-Ambiente: Sistema
-OrangeHRM (Open Source Demo)
+## Ambiente
+- URL: https://opensource-demo.orangehrmlive.com
+- Ambiente: Produção (Demo pública)
+- Navegador: Chrome
+- Sistema Operacional: Windows
 
-URL
-https://opensource-demo.orangehrmlive.com
+## Pré-condição
+- Usuário autenticado no sistema
+- Sessão ativa
+- Dashboard carregada corretamente
 
-Ambiente
-Produção (Demo pública)
+## Passos para reprodução
+1. Realizar login com usuário válido
+2. Acessar o dashboard
+3. Clicar em logout
+4. Na tela de login, clicar no botão voltar (←) do navegador
 
-Navegador
-Chrome
+## Resultado esperado
+Após o logout, o sitema não deve permitir a vizualização de páginas internas, mesmo ao utilizar o botão voltar do navegador
 
-Sistema Operacional
-Windows
+O usuário deve permanecer na tela de login e qualuqer tentativa de acesso à URL interna deve ser bloqueada imediatamente
 
-Pré-condição 
-Usuário autenticado no sistema
-Sessão ativa
-Dashboard carregado corretamente
+## Resultado real
+Ao clicar no botão voltar após o logout:
+- O dashboard é exibido novamente
+- A URL da área interna é carregada
+- Ao interagir com qualquer funcionalidade, o sistema redireciona o usuário para a tela de login
 
-Passos para reprodução
-Realizar login com usuário válido.
-Acessar o Dashboard.
-Clicar em Logout.
-Na tela de login, clicar no botão Voltar (←) do navegador.
-
-Resultado esperado
-Após o logout, o sistema não deve permitir a visualização de páginas internas, mesmo ao utilizar o botão Voltar do navegador.
-O usuário deve permanecer na tela de login e qualquer tentativa de acesso à URL interna deve ser bloqueada imediatamente.
-
-Resultado obtido
-Ao clicar no botão Voltar após o logout:
-O Dashboard é exibido novamente.
-A URL da área interna é carregada.
-Ao tentar interagir com qualquer funcionalidade, o sistema redireciona o usuário para a tela de login.
-
-Severidade
+## Severidade
 Baixa
 
-### Evidências
-
+## Evidência
 - ![Dashboard visível após logout](evidences/bug-logout-001-dashboard-after-logout.png)
 
 - ![Retorno ao Dashboard via botão Voltar](evidences/bug-logout-001-back-button-dashboard.png)
+
