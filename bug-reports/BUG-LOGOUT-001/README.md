@@ -24,13 +24,13 @@ Segurança
 4. Na tela de login, clicar no botão voltar (←) do navegador
 
 ## Resultado esperado
-Após o logout, o sitema não deve permitir a vizualização de páginas internas, mesmo ao utilizar o botão voltar do navegador
+Após o logout, o sistema não deve permitir a visualização de páginas internas, mesmo ao utilizar o botão voltar do navegador
 
-O usuário deve permanecer na tela de login e qualuqer tentativa de acesso à URL interna deve ser bloqueada imediatamente
+O usuário deve permanecer na tela de login e qualquer tentativa de acesso à URL interna deve ser bloqueada imediatamente
 
 ## Resultado real
 Ao clicar no botão voltar após o logout:
-- O dashboard é exibido novamente
+- O Dashboard é exibido novamente
 - A URL da área interna é carregada
 - Ao interagir com qualquer funcionalidade, o sistema redireciona o usuário para a tela de login
 
