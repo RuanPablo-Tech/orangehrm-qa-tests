@@ -33,6 +33,6 @@ Baixa
 
 ## Evidência
 ![Usuário vazio](evidences/bug-login-001_step-1_usuario-vazio.png)
-![Usuário vazio](evidences/bug-login-001_step-4_usuario-invalido.png)
+![Usuário vazio](evidences/bug-login-001_step-2_usuario-invalido.png)
 
 
